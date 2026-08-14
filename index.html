@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper Template 2</title>
+    <!--  normalize file  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--  font awesome  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--  google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <!--  main css file -->
+    <link rel="stylesheet" href="css/kasper.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="#">
+          <img src="images/logo.png" alt="logo image">
+        </a>
+        <nav>
+          <i class="fa-solid fa-bars toggle-list" id="burger"></i>
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="landing">
+        <div class="bg current"></div>
+        <div class="bg next"></div>
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="text">
+            <div class="content">
+              <h2>Hello World!<br>We Are Kasper We Make Art.</h2>
+              <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-angle-left change-background arrow-left"></i>
+          <i class="fa-solid fa-angle-right change-background arrow-right"></i>
+          <ul class="bullets">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <h2 class="special-heading">services</h2>
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          <div class="services-content">
+            <div class="serv">
+              <i class="fa-solid fa-display"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+              </div>
+            </div>
+            <div class="serv">
+              <i class="fa-solid fa-gear"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+              </div>
+            </div>
+            <div class="serv">
+              <i class="fa-solid fa-pen-ruler"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+              </div>
+            </div>
+            <div class="serv">
+              <i class="fa-solid fa-camera"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="design overlay-section">
+        <div class="image">
+          <img src="images/mobile.png" alt="an image of mobile">
+        </div>
+        <div class="text">
+          <h2>Our Design Comes With...</h2>
+          <ul class="features">
+            <li class="feat">Responsive Design</li>
+            <li class="feat">Modern And Clean Design</li>
+            <li class="feat">Clean Code</li>
+            <li class="feat">Browser Friendly</li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2 class="special-heading">PORTFOLIO</h2>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        <div class="portfolio-content">
+          <ul class="filter-options">
+            <li class="active" data-filter="all">All</li>
+            <li data-filter="app">App</li>
+            <li data-filter="photo">Photo</li>
+            <li data-filter="web">Web</li>
+            <li data-filter="print">Print</li>
+          </ul>
+          <div class="imgs-container">
+            <div class="image" data-category="app">
+              <img src="./images/shuffle-01.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="photo">
+              <img src="./images/shuffle-02.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="web">
+              <img src="./images/shuffle-03.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="print">
+              <img src="./images/shuffle-04.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="app">
+              <img src="./images/shuffle-05.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="print">
+              <img src="./images/shuffle-06.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="photo">
+              <img src="./images/shuffle-07.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+            <div class="image" data-category="web">
+              <img src="./images/shuffle-08.jpg" alt="">
+              <div class="caption">
+                <h4>Awesome Image</h4>
+                <p>Photography</p>
+              </div>
+            </div>
+          </div>
+          <a href="more" class="more">more</a>
+        </div>
+      </section>
+      <section class="video">
+        <video muted autoplay loop playsinline>
+          <source src="videos/awesome-video.mp4" type="video/mp4">
+          Your Browser Doesn't Support The Video
+        </video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Super Awesome Video Here</h2>
+          <p>It's All You Need</p>
+          <button>SEE MORE</button>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="special-heading">About Us</h2>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        <img src="images/about.png" alt="about image">
+      </section>
+      <section class="stats overlay-section">
+        <div class="container">
+          <div class="box">
+            <i class="fa-solid fa-mug-hot"></i>
+            <span class="number" data-num="1236">0</span>
+            <p>Coffee Drinks</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-folder"></i>
+            <span class="number" data-num="256">0</span>
+            <p>Completed Projects</p>
+          </div>
+          <div class="box">
+            <i class="fa-regular fa-envelope"></i>
+            <span class="number" data-num="1743">0</span>
+            <p>Mail Sent</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-trophy"></i>
+            <span class="number" data-num="17">0</span>
+            <p>Awards Received</p>
+          </div>
+        </div>
+      </section>
+      <section class="our-skills">
+        <div class="container">
+          <div class="testimonial">
+            <h3>Testimonials</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <div class="content">
+              <img src="images/skills-01.jpg" alt="">
+              <div class="text">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <span class="writer">John Doe, CEO</span>
+              </div>
+            </div>
+            <div class="content">
+              <img src="images/skills-02.jpg" alt="">
+              <div class="text">
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <span class="writer">John Doe, CEO</span>
+              </div>
+            </div>
+            <ul class="bullets">
+              <li></li>
+              <li class="active"></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <div class="prog-holder">
+              <h4>Adobe</h4>
+              <div class="prog">
+                <span data-prog="90%"></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>Html & Css</h4>
+              <div class="prog">
+                <span data-prog="85%"></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>JavaScript</h4>
+              <div class="prog">
+                <span data-prog="80%"></span>
+              </div>
+            </div>
+            <div class="prog-holder">
+              <h4>Php</h4>
+              <div class="prog">
+                <span data-prog="90%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quote overlay-section">
+        <div class="container">
+          <blockquote>
+            <p>accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <span>John Doe</span>
+          </blockquote>
+        </div>
+      </section>
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <h2 class="special-heading">Pricing</h2>
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          <div class="plans">
+            <div class="plan">
+              <div class="head">
+                <h3>Basic</h3>
+                <span class="price">19</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Premium</h3>
+                <span class="price">29</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Pro</h3>
+                <span class="price">39</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="">Buy Now</a>
+              </div>
+            </div>
+            <div class="plan">
+              <div class="head">
+                <h3>Platinum</h3>
+                <span class="price">49</span>
+              </div>
+              <ul>
+                <li>Feature No 1</li>
+                <li>Extra Feature</li>
+                <li>Extra Feature No 2</li>
+                <li>Feature</li>
+              </ul>
+              <div class="foot">
+                <a href="">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact">
+            <p>Contact us if you have special request</p>
+            <a>Contact Us</a>
+          </div>
+        </div>
+      </section>
+      <section class="subscribe overlay-section">
+        <div class="container">
+          <form action="">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" class="email" name="email" placeholder="Your Email">
+            <input type="submit" class="submit" value="Subscribe">
+          </form>
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="special-heading">contact us</h2>
+          <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+          <div class="content">
+            <form action="">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+            <div class="info">
+              <div class="numbers">
+                <h3>Get in touch</h3>
+                <span>+00 123.456.789</span>
+                <span>+00 123.456.789</span>
+              </div>
+              <div class="address">
+                <h3>where we are</h3>
+                <address>
+                  Awesome Address 17 <br>
+                  New York, NYC <br>
+                  123-4567-890 <br>
+                  USA
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="overlay-section">
+      <div class="container">
+        <img src="./images/logo.png" alt="logo image">
+        <p class="social">We are social</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-house-chimney"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p class="copyright">&copy; <span id="date"></span> <span class="title">Kasper</span> All right reserved</span></p>
+      </div>
+    </footer>
+    <script src="logic.js"></script>
+  </body>
+</html>
