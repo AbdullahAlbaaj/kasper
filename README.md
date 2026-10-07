@@ -5,7 +5,7 @@ A fully response landing page for creative agency, built using a Mobile-First ap
 This is a fully responsive landing page designed for a creative agency. It showcases advanced layout techniques and interactive features built with HTML, CSS, and vanilla JavaScript. The project goes beyond a static template by incorporating dynamic elements like an image slider, portfolio filter, and scroll-triggered animations.
 
 ## 🚀 Live Demo
-[View the live project here](https://abdullahalbaaj.github.io/kasper/)
+[View the live project here](https://abdullahalbaaj.github.io/Memes-Generator/)
 
 ## 🛠️ Built With
 - **HTML5** – Semantic markup
