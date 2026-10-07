@@ -1,6 +1,5 @@
 # kasper
 A fully response landing page for creative agency, built using a Mobile-First approach with HTML 5, CSS 3, JS
-# Kasper - Creative Agency Template
 
 ## 📖 About The Project
 This is a fully responsive landing page designed for a creative agency. It showcases advanced layout techniques and interactive features built with HTML, CSS, and vanilla JavaScript. The project goes beyond a static template by incorporating dynamic elements like an image slider, portfolio filter, and scroll-triggered animations.
